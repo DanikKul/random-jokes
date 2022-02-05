@@ -19,11 +19,12 @@ const jackie = document.querySelector('#img-container');
 const text = document.querySelector('.main-container .quote');
 const author = document.querySelector('.main-container .author');
 const myHtml = document.querySelector('html');
-let colors = ['black', 'green', 'blue', 'red', 'purple', 'cornflowerblue', 'violet', 'chocolate', 'teal', 'dimgray', 'aqua', 'brown', 'darkkhaki']; // 13
+let colors = ['black', 'green', 'blue', 'red', 'purple', 'cornflowerblue', 'violet', 'chocolate', 'dimgray', 'aqua', 'brown', 'darkkhaki'];
 
 function loaded() {
-    text.innerHTML = quotes[Math.floor(Math.random() * 100)]["text"];
-    author.innerHTML = quotes[Math.floor(Math.random() * 100)]["author"];
+    let x = Math.floor(Math.random() * 100);
+    text.innerHTML = quotes[x]["text"];
+    author.innerHTML = quotes[x]["author"];
 }
 
 buttonQuote.addEventListener('click', function (){
@@ -34,8 +35,9 @@ buttonQuote.addEventListener('click', function (){
     }
     myHtml.style.backgroundColor = newColor;
     jackie.setAttribute('class', 'img-container');
-    text.innerHTML = quotes[Math.floor(Math.random() * 100)]["text"];
-    author.innerHTML = quotes[Math.floor(Math.random() * 100)]["author"];
+    let x = Math.floor(Math.random() * 100);
+    text.innerHTML = quotes[x]["text"];
+    author.innerHTML = quotes[x]["author"];
     setTimeout(stopAnimation, 700);
 });
 
