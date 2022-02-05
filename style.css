@@ -56,70 +56,7 @@ p{
 }
 
 @keyframes shake {
-    0% {
-        transform: translate(0px, 0px) rotate(16deg);
-    }
-    5% {
-        transform: translate(0px, 0px) rotate(32deg);
-    }
-    10% {
-        transform: translate(0px, 0px) rotate(48deg);
-    }
-    15% {
-        transform: translate(0px, 0px) rotate(64deg);
-    }
-    20% {
-        transform: translate(0px, 0px) rotate(81deg);
-    }
-    20% {
-        transform: translate(0px, 0px) rotate(96deg);
-    }
-    25% {
-        transform: translate(0px, 0px) rotate(112deg);
-    }
-    30% {
-        transform: translate(0px, 0px) rotate(128deg);
-    }
-    35% {
-        transform: translate(0px, 0px) rotate(145deg);
-    }
-    40% {
-        transform: translate(0px, 0px) rotate(160deg);
-    }
-    45% {
-        transform: translate(0px, 0px) rotate(176deg);
-    }
-    50% {
-        transform: translate(0px, 0px) rotate(192deg);
-    }
-    55% {
-        transform: translate(0px, 0px) rotate(208deg);
-    }
-    60% {
-        transform: translate(0px, 0px) rotate(224deg);
-    }
-    65% {
-        transform: translate(0px, 0px) rotate(240deg);
-    }
-    70% {
-        transform: translate(0px, 0px) rotate(256deg);
-    }
-    75% {
-        transform: translate(0px, 0px) rotate(274deg);
-    }
-    80% {
-        transform: translate(0px, 0px) rotate(290deg);
-    }
-    85% {
-        transform: translate(0px, 0px) rotate(306deg);
-    }
-    90% {
-        transform: translate(0px, 0px) rotate(322deg);
-    }
-    95% {
-        transform: translate(0px, 0px) rotate(339deg);
-    }
-    100% {
-        transform: translate(0px, 0px) rotate(360deg);
+    100%{
+        transform: rotate(360deg);
     }
 }
